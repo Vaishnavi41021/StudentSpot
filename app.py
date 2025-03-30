@@ -1,14 +1,17 @@
 import streamlit as st
 
-# Load index.html as a string
-def load_html():
-    with open("index.html", "r", encoding="utf-8") as file:
-        return file.read()
-
-# Streamlit App
 st.set_page_config(page_title="Student Spot", layout="wide")
 
-st.markdown("<h1 style='text-align: center; color: #ff6600;'>Student Spot</h1>", unsafe_allow_html=True)
+# Use Streamlit to load images
+st.image("images/logo.png", width=250)
 
-# Embed the HTML content inside Streamlit
-st.components.v1.html(load_html(), height=1000, scrolling=True)
+# Slideshow (Manual method)
+st.image(["images/banner 2.png", "images/banner 3.png", "images/banner img 1.png"], caption=["Banner 2", "Banner 3", "Banner 1"], use_column_width=True)
+
+# Contact Section with Images
+st.subheader("Contact Us")
+st.write("📧 Email: thestudentspotofficial@gmail.com")
+st.image("images/instagram.png", width=40)
+st.write("Instagram: the_studentspot")
+st.image("images/linkedin.png", width=40)
+st.write("LinkedIn: The Student Spot")
