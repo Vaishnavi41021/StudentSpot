@@ -16,7 +16,7 @@ st.image(["banner 1.png", "banner 2.png", "banner 3.png"],
 
 # Services Section
 st.header("Our Services")
-st.image(["TSS (1).jpg", "TSS (2).jpg", "TSS (3).jpg"], width=200)
+st.image(["TSS (1).jpg", "TSS (2).jpg", "TSS (3).jpg","TSS (4).jpg","TSS (5).jpg","TSS (6).jpg","TSS (7).jpg","TSS (8).jpg","TSS (9).jpg","TSS (10).jpg"], width=200)
 
 # Contact Section
 st.header("Contact Us")
