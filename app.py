@@ -12,7 +12,7 @@ st.image("logo.png", width=200)
 
 # Slideshow (Manual method)
 st.image(["banner 1.png", "banner 2.png", "banner 3.png"], 
-         caption=["Banner 1", "Banner 2", "Banner 3"], use_column_width=True)
+         caption=["Banner 1", "Banner 2", "Banner 3"], use_container_width=True)
 
 # Services Section
 st.header("Our Services")
