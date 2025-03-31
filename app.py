@@ -11,7 +11,7 @@ st.write("Empowering Students, Elevating Futures")
 st.image("logo.png", width=200)
 
 # Slideshow (Manual method)
-st.image(["banner 1.png", "banner 2.png", "banner 3.png"], 
+st.image(["banner_img_1.png", "banner_2.png", "banner_3.png"], 
          caption=["Banner 1", "Banner 2", "Banner 3"], use_container_width=True)
 
 # Services Section
